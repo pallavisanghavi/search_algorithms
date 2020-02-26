@@ -1,0 +1,51 @@
+<html>
+
+<head>
+    <title> Algo Visualizer</title>
+    <link rel="stylesheet" type="text/css" href="./style.css">
+</head>
+
+<body>
+    <div class="select">
+
+        <div class="custom select-algo">
+            <label for="cars">Choose an Algorithm:</label>
+
+            <select id="algo-options" onchange="algoChange()" placeholder="Sellect algorith">
+                <option value="1">Bubble Sort</option>
+                <option value="2">Selection Sort</option>
+                <option value="3">Linear Search</option>
+                <option value="4">Binary Search</option>
+            </select>
+        </div>
+
+
+        <div class="custom  select-size">
+            <label for="fname">Array Size</label>
+            <input type="number" id="array-size" placeholder="Enter array size" onchange="sizeChange()" value="5">
+        </div>
+
+        <div class="custom" id="search-element">
+            <label for="fname">Search Element</label>
+            <input type="number" id="search-box" placeholder="Enter number to search" disabled>
+        </div>
+
+        <div class="custom">
+            <label for="points">Speed</label>
+            <input type="range" id="speed" min="10" max="100" onchange="speedChange()">
+        </div>
+
+    </div>
+    <div>
+
+
+        <div class="custom btn">
+            <button type="button" onclick="visualize()" id="btn">Start Animation</button>
+        </div>
+    </div>
+
+    <div class="main" id="div"> </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>

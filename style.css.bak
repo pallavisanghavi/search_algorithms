@@ -1,0 +1,70 @@
+main {
+    background-color: black;
+    position: relative;
+    display: flex;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 64px;
+    width: 100vw;
+}
+
+.dynamic {
+    display: flex;
+    color: #fff;
+    margin-left: 8px;
+    position: relative;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.select {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.custom {
+    padding: 8px;
+    margin: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input,
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    font-family: Arial;
+}
